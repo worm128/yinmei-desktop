@@ -1,0 +1,15 @@
+﻿<Window x:Class="YinmeiWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:effects="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:local="clr-namespace:YinmeiWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStyle="None" ResizeMode="NoResize" Margin="0" Padding="0" Background="Transparent" AllowsTransparency="True">
+    <Image x:Name="imageControl" Margin="0">
+        <Image.Effect>
+            <local:GreenScreenShaderEffect />
+        </Image.Effect>
+    </Image>
+</Window>

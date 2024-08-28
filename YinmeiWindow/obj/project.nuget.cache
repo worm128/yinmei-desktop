@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w4ZLhluwVRY=",
+  "success": true,
+  "projectFilePath": "E:\\人工智能备份\\ai\\ai-code\\yinmei-desktop\\YinmeiWindow\\YinmeiWindow.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.drawing.common\\8.0.5\\system.drawing.common.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
