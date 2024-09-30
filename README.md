@@ -24,8 +24,9 @@
 - 其他后端配置：https://www.bilibili.com/video/BV1xmvDeiE6G/
 - 相关桌宠云文档：https://github.com/worm128/AI-YinMei/releases/download/v1.8.1/readme-v1.8.1.pdf
 - 相关桌宠整合包下载：https://github.com/worm128/AI-YinMei/releases/download/v1.8.1/yinmei-desktop.zip
+- 界面呈现使用C#，可自行安装Asp.net库
 - 绿布过滤使用DirectX9
-- 读取流使用微软spout2共享视频流技术，利用C++开源框架![LightjamsSpout](https://github.com/matjacques/LightjamsSpout)
+- 读取流使用微软spout2共享视频流技术，利用C++开源框架进行读取![LightjamsSpout](https://github.com/matjacques/LightjamsSpout)
 
 ### 更多关注
 
