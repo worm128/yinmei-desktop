@@ -87,8 +87,8 @@ namespace YinmeiWindow
 
             // the senderName as retrieved when enumerating senders or "" to use the active sender
             m_receiver.Connect("VTubeStudioSpout", out m_width, out m_height);
-            imageControl.Width = 800;
-            imageControl.Height = 650;
+            imageControl.Width = 1000;
+            imageControl.Height = 850;
             imageControl.Stretch = Stretch.Uniform;
 
             const int bytesPerPixel = 3;    // RGB
@@ -240,6 +240,8 @@ namespace YinmeiWindow
                 //Debug.WriteLine(m_buffer.Length);
 
                 writeableBitmap.Lock();
+                //绿布过滤：cpu
+                //FilterGreenBackground(m_buffer, m_width, m_height);
                 Marshal.Copy(m_buffer, 0, writeableBitmap.BackBuffer, m_buffer.Length);
                 writeableBitmap.AddDirtyRect(new Int32Rect(0, 0, m_width, m_height));
                 writeableBitmap.Unlock();
@@ -272,6 +274,36 @@ namespace YinmeiWindow
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
+            }
+        }
+
+        public static void FilterGreenBackground(byte[] imageData, int width, int height)
+        {
+            int bytesPerPixel = 4; // 假设图片格式为RGBA，每像素4字节
+            int totalBytes = width * height * bytesPerPixel;
+            Debug.WriteLine("长度:"+ imageData.Length);
+            for (int i = 0; i < totalBytes; i += bytesPerPixel)
+            {
+                // 获取当前像素的RGBA值
+                byte r = imageData[i + 0];
+                byte g = imageData[i + 1];
+                byte b = imageData[i + 2];
+                byte a = imageData[i + 3];
+
+                // 绿色阈值
+                const byte greenThreshold = 200;
+                const byte greenMin = 100;
+
+                // 检查像素是否接近绿色
+                if (g > greenThreshold && r < greenMin && b < greenMin)
+                {
+                    // 替换为透明颜色
+                    imageData[i + 3] = 0;
+                    Debug.WriteLine(i + ".透明");
+                }
+                else {
+                    Debug.WriteLine(i+".无");
+                }
             }
         }
 

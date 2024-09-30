@@ -15,9 +15,9 @@ float4 PSMain(float2 uv : TEXCOORD0) : COLOR
     // 如果差异在容差范围内，则将像素颜色设为透明
     if (difference < g_Tolerance)
     {
-        color.a = 0;
+        //color.a = 0;
         //透明通道，必须把rgb全部设置为白色
-        color.rgb = float3(0.0, 0.0, 0.0);
+        color.rgba = float4(0.0, 0.0, 0.0, 0.0);
     }
     
     return color;

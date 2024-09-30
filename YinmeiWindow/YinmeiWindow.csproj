@@ -39,7 +39,7 @@
   <ItemGroup>
     <Resource Include="Effects\GrayFilter.ps" />
     <Resource Include="Effects\GreenScreenShader.ps">
-      <CopyToOutputDirectory></CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
 
@@ -59,6 +59,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Effects\GreenFilter11.cso">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Effects\GreenFilter11.ps">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
     <None Update="Effects\GreenScreenShader.fx">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>

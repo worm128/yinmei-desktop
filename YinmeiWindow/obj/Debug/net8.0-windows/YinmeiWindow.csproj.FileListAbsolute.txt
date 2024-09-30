@@ -80,6 +80,10 @@ J:\ai\ai-code\yinmei-desktop\YinmeiWindow\obj\Debug\net8.0-windows\YinmeiWindow.
 J:\ai\ai-code\yinmei-desktop\YinmeiWindow\obj\Debug\net8.0-windows\YinmeiWindow.AssemblyInfo.cs
 J:\ai\ai-code\yinmei-desktop\YinmeiWindow\obj\Debug\net8.0-windows\YinmeiWindow.csproj.CoreCompileInputs.cache
 J:\ai\ai-code\yinmei-desktop\YinmeiWindow\obj\Debug\net8.0-windows\YinmeiWindow.dll.manifest
-J:\ai\ai-code\yinmei-desktop\YinmeiWindow\obj\Debug\net8.0-windows\YinmeiWindow.csproj.CopyComplete
 J:\ai\ai-code\yinmei-desktop\YinmeiWindow\obj\Debug\net8.0-windows\YinmeiWindow.genruntimeconfig.cache
 J:\ai\ai-code\yinmei-desktop\YinmeiWindow\obj\Debug\net8.0-windows\ref\YinmeiWindow.dll
+J:\ai\ai-code\yinmei-desktop\YinmeiWindow\bin\Debug\net8.0-windows\Effects\GreenFilter11.cso
+J:\ai\ai-code\yinmei-desktop\YinmeiWindow\obj\Debug\net8.0-windows\YinmeiWindow.sourcelink.json
+J:\ai\ai-code\yinmei-desktop\YinmeiWindow\obj\Debug\net8.0-windows\YinmeiWi.435D99AE.Up2Date
+J:\ai\ai-code\yinmei-desktop\YinmeiWindow\bin\Debug\net8.0-windows\Effects\GreenFilter11.ps
+J:\ai\ai-code\yinmei-desktop\YinmeiWindow\bin\Debug\net8.0-windows\Effects\GreenScreenShader.ps

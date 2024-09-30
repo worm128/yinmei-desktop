@@ -24,7 +24,10 @@ namespace YinmeiWindow
              deviceContext.PixelShader.Set(pixelShader);*/
 
             //======== 这里是System.Windows.Media.Effects的PixelShader
+            //资源文件结构
             PixelShader = new System.Windows.Media.Effects.PixelShader { UriSource = new Uri(@"pack://application:,,,/YinmeiWindow;Component/Effects/GreenScreenShader.ps", UriKind.RelativeOrAbsolute) };
+            //松散文件结构
+            //PixelShader = new System.Windows.Media.Effects.PixelShader { UriSource = new Uri("pack://siteoforigin:,,,/Effects/GreenFilter11.ps", UriKind.RelativeOrAbsolute) };
             UpdateShaderValue(InputProperty);
             /*PixelShader.InvalidPixelShaderEncountered += (s, e) =>
             {

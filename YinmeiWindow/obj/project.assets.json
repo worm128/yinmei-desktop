@@ -134,11 +134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\人工智能备份\\ai\\ai-code\\yinmei-desktop\\YinmeiWindow\\YinmeiWindow.csproj",
+      "projectUniqueName": "J:\\ai\\ai-code\\yinmei-desktop\\YinmeiWindow\\YinmeiWindow.csproj",
       "projectName": "YinmeiWindow",
-      "projectPath": "E:\\人工智能备份\\ai\\ai-code\\yinmei-desktop\\YinmeiWindow\\YinmeiWindow.csproj",
+      "projectPath": "J:\\ai\\ai-code\\yinmei-desktop\\YinmeiWindow\\YinmeiWindow.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\人工智能备份\\ai\\ai-code\\yinmei-desktop\\YinmeiWindow\\obj\\",
+      "outputPath": "J:\\ai\\ai-code\\yinmei-desktop\\YinmeiWindow\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\software\\c++\\Microsoft Visual Studio\\Shared\\NuGetPackages"
