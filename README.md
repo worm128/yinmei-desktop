@@ -13,7 +13,7 @@
 - Ai吟美教程集合：https://www.bilibili.com/read/cv33640951/
 - Q 群：27831318
 - 版本：1.0.0
-- 技术栈：C#、C++、spout2
+- 技术栈：C#、C++、DirectX9、spout2
 
 ## **技术架构**
 <img width="700" alt="吟美流程图1.8.1" src="https://github.com/user-attachments/assets/1472b81e-9255-48bc-b4a4-f2b200a81513"><br>
@@ -24,7 +24,8 @@
 - 其他后端配置：https://www.bilibili.com/video/BV1xmvDeiE6G/
 - 相关桌宠云文档：https://github.com/worm128/AI-YinMei/releases/download/v1.8.1/readme-v1.8.1.pdf
 - 相关桌宠整合包下载：https://github.com/worm128/AI-YinMei/releases/download/v1.8.1/yinmei-desktop.zip
-
+- 绿布过滤使用DirectX9
+- 读取流使用微软spout2共享视频流技术，利用C++开源框架![LightjamsSpout](https://github.com/matjacques/LightjamsSpout)
 
 ### 更多关注
 
