@@ -1,5 +1,5 @@
 # **AI-YinMei-Desktop【Ai吟美桌宠】**
-![Github stars](https://img.shields.io/github/stars/worm128/yinmei-desktop.svg) &nbsp; ![发布版本](https://img.shields.io/badge/release-1.0.0-blue) &nbsp; ![VS2022](https://img.shields.io/badge/VS2022) &nbsp; ![C#](https://img.shields.io/badge/C#) &nbsp; ![C++](https://img.shields.io/badge/C++) &nbsp; ![spout2](https://img.shields.io/badge/spout2)<br>
+![Github stars](https://img.shields.io/github/stars/worm128/yinmei-desktop.svg) &nbsp; ![发布版本](https://img.shields.io/badge/release-1.0.0-blue) &nbsp; ![VS2022](https://img.shields.io/badge/VS2022-blue) &nbsp; ![C#](https://img.shields.io/badge/C#-blue) &nbsp; ![C++](https://img.shields.io/badge/C++-blue) &nbsp; ![spout2](https://img.shields.io/badge/spout2-blue)<br>
 [桌宠云](https://www.bilibili.com/video/BV1xmvDeiE6G/)：<br>
 <img src="https://github.com/user-attachments/assets/4de70042-a3a2-4865-8ee9-8fe722262194" alt="1.8.1桌宠云" width="700" height="400" ><br>
 【[:smile:开发文档](https://gf.bilibili.com/item/detail/1107273021)|[:heartpulse:视频教程](https://www.bilibili.com/read/cv33640951/)|[:truck:1.8整合包教程](https://www.bilibili.com/video/BV1e4421Z76E/)|[:sparkles:1.7整合包教程](https://www.bilibili.com/video/BV1zD421H76q)】<br>
