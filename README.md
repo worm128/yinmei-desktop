@@ -21,7 +21,7 @@
 ## **项目说明**
 - 此项目是Ai的桌面皮肤项目
 - 安装流程：https://www.bilibili.com/video/BV1cvnfe2EXu/
-- 其他后端配置：https://www.bilibili.com/video/BV1cvnfe2EXu/
+- 其他后端配置：https://www.bilibili.com/video/BV1xmvDeiE6G/
 - 相关桌宠云文档：https://github.com/worm128/AI-YinMei/releases/download/v1.8.1/readme-v1.8.1.pdf
 - 相关桌宠整合包下载：https://github.com/worm128/AI-YinMei/releases/download/v1.8.1/yinmei-desktop.zip
 
