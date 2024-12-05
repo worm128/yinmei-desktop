@@ -17,6 +17,10 @@ namespace YinmeiWindow
     /// </summary>
     public partial class MainWindow : Window
     {
+        private const double MinScale = 0.1; // 最小缩放比例
+        private const double MaxScale = 5.0; // 最大缩放比例
+        private const double ScaleStep = 0.1; // 每次滚动的缩放步长
+
         private DispatcherTimer _timer; // 用于定时更新图像
         private byte[] m_buffer; // 假设这是你从视频帧获取的字节数组
         LightjamsSpoutReceiver m_receiver = new LightjamsSpoutReceiver();
@@ -491,6 +495,30 @@ namespace YinmeiWindow
             {
                 m_receiver.ReceiveImage(m_buffer, LightjamsSpoutLib.EPixelFormat.BGR);
             }
+        }
+
+        private void ImageViewBox_MouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            // 获取当前的缩放变换
+            var transform = imageControl.RenderTransform as ScaleTransform;
+            if (transform == null)
+            {
+                // 如果还没有设置缩放变换，则初始化为1
+                transform = new ScaleTransform(1, 1);
+                imageControl.RenderTransform = transform;
+                imageControl.RenderTransformOrigin = new System.Windows.Point(0.5, 0.5); // 设置缩放中心点为控件中心
+            }
+
+            // 根据滚轮方向调整缩放比例
+            double scale = e.Delta > 0 ? ScaleStep : -ScaleStep;
+            double newScaleX = Math.Max(MinScale, Math.Min(MaxScale, transform.ScaleX + scale));
+            double newScaleY = Math.Max(MinScale, Math.Min(MaxScale, transform.ScaleY + scale));
+
+            transform.ScaleX = newScaleX;
+            transform.ScaleY = newScaleY;
+
+            // 更新事件参数，阻止事件冒泡
+            e.Handled = true;
         }
 
         /*public class MediaFoundationRenderEngine
